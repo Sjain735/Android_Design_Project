@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/mainBackground"
+    android:padding="5dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/act2_item1_text_1"
+        android:text="SHORT CLIP"
+        android:textSize="18dp"
+        android:textColor="@color/textColorDark"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/act2_item1_text_2"
+        android:layout_margin="3dp"
+        android:text="MORE"
+        android:textSize="14dp"
+        android:clickable="true"
+        android:textColor="@color/textColorSecondary"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
+
+    <ImageView
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_marginLeft="105dp"
+        android:layout_marginStart="105dp"
+        android:id="@+id/act2_item1_img_icon"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/ic_settings_white_48dp"/>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:rowCount="3"
+        android:layout_marginTop="22dp"
+        android:padding="6dp">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="@dimen/act2_item1_card_width"
+            android:layout_height="@dimen/act2_item1_card_height"
+            android:id="@+id/act2_item1_cardView_inner_1"
+            android:elevation="16dp"
+            cardview:cardCornerRadius="0dp"
+            cardview:cardUseCompatPadding="true"
+            android:layout_margin="@dimen/act2_item1_card_margin"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/act2_item1_text_height"
+                android:id="@+id/act2_item1_cardView_inner_1_text_1"
+                android:text="Race 2"
+                android:textColor="@color/textColorDark"
+                android:textSize="16dp"
+                android:layout_marginLeft="@dimen/act2_item1_card_text_margin_start"
+                android:layout_marginStart="@dimen/act2_item1_card_text_margin_start"
+                android:layout_marginTop="@dimen/act2_item1_image_height"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/act2_item1_text_height"
+                android:id="@+id/act2_item1_cardView_inner_1_text_2"
+                android:text="Views : 53845"
+                android:textColor="@color/textColorMedium"
+                android:textSize="16dp"
+                android:textAlignment="center"
+                android:layout_marginTop="@dimen/act2_item1_text_margin"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/act2_item1_image_height"
+                android:id="@+id/act2_item1_cardView_inner_1_image"
+                android:src="@drawable/page2_pic"
+                android:scaleType="fitXY"
+                />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="@dimen/act2_item1_card_width"
+            android:layout_height="@dimen/act2_item1_card_height"
+            android:id="@+id/act2_item1_cardView_inner_2"
+            android:elevation="16dp"
+            cardview:cardCornerRadius="0dp"
+            cardview:cardUseCompatPadding="true"
+            android:layout_margin="@dimen/act2_item1_card_margin"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/act2_item1_text_height"
+                android:id="@+id/act2_item1_cardView_inner_2_text_1"
+                android:text="Race 2"
+                android:textColor="@color/textColorDark"
+                android:textSize="16dp"
+                android:layout_marginLeft="@dimen/act2_item1_card_text_margin_start"
+                android:layout_marginStart="@dimen/act2_item1_card_text_margin_start"
+                android:layout_marginTop="@dimen/act2_item1_image_height"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/act2_item1_text_height"
+                android:id="@+id/act2_item1_cardView_inner_2_text_2"
+                android:text="Views : 53845"
+                android:textColor="@color/textColorMedium"
+                android:textSize="16dp"
+                android:textAlignment="center"
+                android:layout_marginTop="@dimen/act2_item1_text_margin"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/act2_item1_image_height"
+                android:id="@+id/act2_item1_cardView_inner_2_image"
+                android:src="@drawable/page2_pic"
+                android:scaleType="fitXY"
+                />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="@dimen/act2_item1_card_width"
+            android:layout_height="@dimen/act2_item1_card_height"
+            android:id="@+id/act2_item1_cardView_inner_3"
+            android:elevation="16dp"
+            cardview:cardCornerRadius="0dp"
+            cardview:cardUseCompatPadding="true"
+            android:layout_margin="@dimen/act2_item1_card_margin"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/act2_item1_text_height"
+                android:id="@+id/act2_item1_cardView_inner_3_text_1"
+                android:text="Race 2"
+                android:textColor="@color/textColorDark"
+                android:textSize="16dp"
+                android:layout_marginLeft="@dimen/act2_item1_card_text_margin_start"
+                android:layout_marginStart="@dimen/act2_item1_card_text_margin_start"
+                android:layout_marginTop="@dimen/act2_item1_image_height"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/act2_item1_text_height"
+                android:id="@+id/act2_item1_cardView_inner_3_text_2"
+                android:text="Views : 53845"
+                android:textColor="@color/textColorMedium"
+                android:textSize="16dp"
+                android:textAlignment="center"
+                android:layout_marginTop="@dimen/act2_item1_text_margin"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/act2_item1_image_height"
+                android:id="@+id/act2_item1_cardView_inner_3_image"
+                android:src="@drawable/page2_pic"
+                android:scaleType="fitXY"
+                />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="@dimen/act2_item1_card_width"
+            android:layout_height="@dimen/act2_item1_card_height"
+            android:id="@+id/act2_item1_cardView_inner_4"
+            android:elevation="16dp"
+            cardview:cardCornerRadius="0dp"
+            cardview:cardUseCompatPadding="true"
+            android:layout_margin="@dimen/act2_item1_card_margin"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/act2_item1_text_height"
+                android:id="@+id/act2_item1_cardView_inner_4_text_1"
+                android:text="Race 2"
+                android:textColor="@color/textColorDark"
+                android:textSize="16dp"
+                android:layout_marginLeft="@dimen/act2_item1_card_text_margin_start"
+                android:layout_marginStart="@dimen/act2_item1_card_text_margin_start"
+                android:layout_marginTop="@dimen/act2_item1_image_height"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/act2_item1_text_height"
+                android:id="@+id/act2_item1_cardView_inner_4_text_2"
+                android:text="Views : 53845"
+                android:textColor="@color/textColorMedium"
+                android:textSize="16dp"
+                android:textAlignment="center"
+                android:layout_marginTop="@dimen/act2_item1_text_margin"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/act2_item1_image_height"
+                android:id="@+id/act2_item1_cardView_inner_4_image"
+                android:src="@drawable/page2_pic"
+                android:scaleType="fitXY"
+                />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="@dimen/act2_item1_card_width"
+            android:layout_height="@dimen/act2_item1_card_height"
+            android:id="@+id/act2_item1_cardView_inner_5"
+            android:elevation="16dp"
+            cardview:cardCornerRadius="0dp"
+            cardview:cardUseCompatPadding="true"
+            android:layout_margin="@dimen/act2_item1_card_margin"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/act2_item1_text_height"
+                android:id="@+id/act2_item1_cardView_inner_5_text_1"
+                android:text="Race 2"
+                android:textColor="@color/textColorDark"
+                android:textSize="16dp"
+                android:layout_marginLeft="@dimen/act2_item1_card_text_margin_start"
+                android:layout_marginStart="@dimen/act2_item1_card_text_margin_start"
+                android:layout_marginTop="@dimen/act2_item1_image_height"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/act2_item1_text_height"
+                android:id="@+id/act2_item1_cardView_inner_5_text_2"
+                android:text="Views : 53845"
+                android:textColor="@color/textColorMedium"
+                android:textSize="16dp"
+                android:textAlignment="center"
+                android:layout_marginTop="@dimen/act2_item1_text_margin"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/act2_item1_image_height"
+                android:id="@+id/act2_item1_cardView_inner_5_image"
+                android:src="@drawable/page2_pic"
+                android:scaleType="fitXY"
+                />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="@dimen/act2_item1_card_width"
+            android:layout_height="@dimen/act2_item1_card_height"
+            android:id="@+id/act2_item1_cardView_inner_6"
+            android:elevation="16dp"
+            cardview:cardCornerRadius="0dp"
+            cardview:cardUseCompatPadding="true"
+            android:layout_margin="@dimen/act2_item1_card_margin"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/act2_item1_text_height"
+                android:id="@+id/act2_item1_cardView_inner_6_text_1"
+                android:text="Race 2"
+                android:textColor="@color/textColorDark"
+                android:textSize="16dp"
+                android:layout_marginLeft="@dimen/act2_item1_card_text_margin_start"
+                android:layout_marginStart="@dimen/act2_item1_card_text_margin_start"
+                android:layout_marginTop="@dimen/act2_item1_image_height"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/act2_item1_text_height"
+                android:id="@+id/act2_item1_cardView_inner_6_text_2"
+                android:text="Views : 53845"
+                android:textColor="@color/textColorMedium"
+                android:textSize="16dp"
+                android:textAlignment="center"
+                android:layout_marginTop="@dimen/act2_item1_text_margin"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/act2_item1_image_height"
+                android:id="@+id/act2_item1_cardView_inner_6_image"
+                android:src="@drawable/page2_pic"
+                android:scaleType="fitXY"
+                />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="@dimen/act2_item1_card_width"
+            android:layout_height="@dimen/act2_item1_card_height"
+            android:id="@+id/act2_item1_cardView_inner_7"
+            android:elevation="16dp"
+            cardview:cardCornerRadius="0dp"
+            cardview:cardUseCompatPadding="true"
+            android:layout_margin="@dimen/act2_item1_card_margin"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/act2_item1_text_height"
+                android:id="@+id/act2_item1_cardView_inner_7_text_1"
+                android:text="Race 2"
+                android:textColor="@color/textColorDark"
+                android:textSize="16dp"
+                android:layout_marginLeft="@dimen/act2_item1_card_text_margin_start"
+                android:layout_marginStart="@dimen/act2_item1_card_text_margin_start"
+                android:layout_marginTop="@dimen/act2_item1_image_height"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/act2_item1_text_height"
+                android:id="@+id/act2_item1_cardView_inner_7_text_2"
+                android:text="Views : 53845"
+                android:textColor="@color/textColorMedium"
+                android:textSize="16dp"
+                android:textAlignment="center"
+                android:layout_marginTop="@dimen/act2_item1_text_margin"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/act2_item1_image_height"
+                android:id="@+id/act2_item1_cardView_inner_7_image"
+                android:src="@drawable/page2_pic"
+                android:scaleType="fitXY"
+                />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="@dimen/act2_item1_card_width"
+            android:layout_height="@dimen/act2_item1_card_height"
+            android:id="@+id/act2_item1_cardView_inner_8"
+            android:elevation="16dp"
+            cardview:cardCornerRadius="0dp"
+            cardview:cardUseCompatPadding="true"
+            android:layout_margin="@dimen/act2_item1_card_margin"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/act2_item1_text_height"
+                android:id="@+id/act2_item1_cardView_inner_8_text_1"
+                android:text="Race 2"
+                android:textColor="@color/textColorDark"
+                android:textSize="16dp"
+                android:layout_marginLeft="@dimen/act2_item1_card_text_margin_start"
+                android:layout_marginStart="@dimen/act2_item1_card_text_margin_start"
+                android:layout_marginTop="@dimen/act2_item1_image_height"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/act2_item1_text_height"
+                android:id="@+id/act2_item1_cardView_inner_8_text_2"
+                android:text="Views : 53845"
+                android:textColor="@color/textColorMedium"
+                android:textSize="16dp"
+                android:textAlignment="center"
+                android:layout_marginTop="@dimen/act2_item1_text_margin"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/act2_item1_image_height"
+                android:id="@+id/act2_item1_cardView_inner_8_image"
+                android:src="@drawable/page2_pic"
+                android:scaleType="fitXY"
+                />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="@dimen/act2_item1_card_width"
+            android:layout_height="@dimen/act2_item1_card_height"
+            android:id="@+id/act2_item1_cardView_inner_9"
+            android:elevation="16dp"
+            cardview:cardCornerRadius="0dp"
+            cardview:cardUseCompatPadding="true"
+            android:layout_margin="@dimen/act2_item1_card_margin"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/act2_item1_text_height"
+                android:id="@+id/act2_item1_cardView_inner_9_text_1"
+                android:text="Race 2"
+                android:textColor="@color/textColorDark"
+                android:textSize="16dp"
+                android:layout_marginLeft="@dimen/act2_item1_card_text_margin_start"
+                android:layout_marginStart="@dimen/act2_item1_card_text_margin_start"
+                android:layout_marginTop="@dimen/act2_item1_image_height"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/act2_item1_text_height"
+                android:id="@+id/act2_item1_cardView_inner_9_text_2"
+                android:text="Views : 53845"
+                android:textColor="@color/textColorMedium"
+                android:textSize="16dp"
+                android:textAlignment="center"
+                android:layout_marginTop="@dimen/act2_item1_text_margin"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/act2_item1_image_height"
+                android:id="@+id/act2_item1_cardView_inner_9_image"
+                android:src="@drawable/page2_pic"
+                android:scaleType="fitXY"
+                />
+        </android.support.v7.widget.CardView>
+
+    </GridLayout>
+
+</RelativeLayout>

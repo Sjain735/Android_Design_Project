@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/mainBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/frag_ac_bar_image1"
+        android:scaleType="fitXY"
+        android:src="@drawable/image1"
+        android:padding="5dp"
+        android:elevation="6dp"
+        />
+
+</RelativeLayout>

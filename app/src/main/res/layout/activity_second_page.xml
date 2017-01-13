@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_second_page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainBackground"
+    tools:context="com.example.sahiljain.project_saransh_sir_1.Second_Page">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        cardview:cardBackgroundColor="@color/mainBackground"
+        android:elevation="16dp"
+        cardview:cardCornerRadius="0dp">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/act2_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/act2_ActionBarLayout"
+        app:titleTextColor="@android:color/white"
+        app:layout_scrollFlags="scroll"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/act2_ToolBar_Title"
+            android:padding="5dp"
+            android:text="LATEST"
+            android:textColor="@android:color/white"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/act2_back_button"
+            android:padding="6dp"
+            android:clickable="true"
+            android:src="@drawable/ic_arrow_back_white_48dp"/>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/act2_search_button"
+            android:padding="6dp"
+            android:clickable="true"
+            android:src="@drawable/ic_search_white_48dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"/>
+
+        </RelativeLayout>
+
+        <android.support.design.widget.TabLayout
+        android:id="@+id/act2_tabs"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="40dp"
+        android:minHeight="40dp"
+        android:background="@color/act2_ActionBarLayout"
+        app:tabBackground="@drawable/act2_tab_color"
+        app:tabTextColor="@android:color/white"
+        app:layout_scrollFlags="enterAlwaysCollapsed"
+        app:tabIndicatorColor="@android:color/white"
+        app:tabIndicatorHeight="3dp"
+        app:tabMode="scrollable"
+        app:tabGravity="fill"/>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        app:layout_scrollFlags="scroll"
+        android:id="@+id/act2_pager"
+        android:background="@color/mainBackground"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+    </android.support.v4.view.ViewPager>
+
+</RelativeLayout>

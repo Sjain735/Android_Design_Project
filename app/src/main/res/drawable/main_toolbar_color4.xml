@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:height="@dimen/main_tab_height">
+        <shape
+            android:shape="rectangle">
+            <solid android:color="@color/mainBackground"></solid>
+        </shape>
+    </item>
+
+
+    <item
+        android:gravity="bottom"
+        android:height="@dimen/main_tab_indicator_height">
+        <shape
+            android:shape="rectangle">
+            <gradient
+                android:endColor="@color/mainBackground"
+                android:startColor="@color/tabColor4.5"
+                android:angle="270">
+            </gradient>
+
+        </shape>
+    </item>
+
+</layer-list>

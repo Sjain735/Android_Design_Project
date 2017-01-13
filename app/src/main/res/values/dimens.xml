@@ -1,0 +1,22 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="main_tab_height">48dp</dimen>
+    <dimen name="main_tab_indicator_height">4dp</dimen>
+
+    <dimen name="item1_card_width">170dp</dimen>
+    <dimen name="item1_card_height">155dp</dimen>
+    <dimen name="item1_image_height">100dp</dimen>
+    <dimen name="item1_text1_margin">103dp</dimen>
+    <dimen name="item1_text2_margin">124dp</dimen>
+    <dimen name="item1_card_margin">3dp</dimen>
+
+    <dimen name="act2_item1_card_width">110dp</dimen>
+    <dimen name="act2_item1_card_height">120dp</dimen>
+    <dimen name="act2_item1_image_height">75dp</dimen>
+    <dimen name="act2_item1_text_margin">93dp</dimen>
+    <dimen name="act2_item1_text_height">25dp</dimen>
+    <dimen name="act2_item1_card_margin">2dp</dimen>
+    <dimen name="act2_item1_card_text_margin_start">4dp</dimen>
+
+</resources>

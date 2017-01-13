@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+-->
+    <color name="colorPrimary">#FBFCFC</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#c8e8ff</color>
+
+    <color name="act2_ActionBarLayout">#D33D3F</color>
+    <color name="act2_TabColor1">#D33D3F</color>
+    <color name="act2_TabColor2">#F8F8F8</color>
+
+    <color name="textColorDark">#313131</color>
+    <color name="textColorMedium">#616161</color>
+    <color name="textColorLight">#919191</color>
+    <color name="textColorSecondary">#FF001B</color>
+
+    <color name="mainBackground">#EEEEEE</color>
+    <color name="cardBackground">#F8F8F8</color>
+    <color name="navigationBarColor">#000000</color>
+
+    <color name="tabIcons">#CACFD2</color>
+
+    <color name="tabColor1">#D33D3F</color>
+    <color name="tabColor2">#0D589B</color>
+    <color name="tabColor3">#169689</color>
+    <color name="tabColor4">#FCC02E</color>
+
+    <color name="tabColor1.5">#F39495</color>
+    <color name="tabColor2.5">#B2D8FB</color>
+    <color name="tabColor3.5">#B0FBF3</color>
+    <color name="tabColor4.5">#FBDC91</color>
+
+</resources>
